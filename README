@@ -1,0 +1,19 @@
+Run at Python 3.7.6
+
+1 - Clone project
+2 - Install dependencies
+3 - Run Redis on port 6379 (docker run -p 6379:6379 -d redis:2.8)
+4 - Run migrations
+5 - Runserver
+6 - Access http://127.0.0.1:8000/
+7 - Create superuser
+8 - Aceess http://127.0.0.1:8000/admin and create a new Item
+9 - Behold the channels working with the Django signals
+
+
+SOURCE
+https://stackoverflow.com/questions/46614541/using-django-signals-in-channels-consumer-classes
+https://github.com/ornl-ndav/django-remote-submission/tree/master/django_remote_submission
+https://github.com/andrewgodwin/channels-examples/tree/master/multichat
+https://channels.readthedocs.io/en/latest/tutorial/part_1.html
+
